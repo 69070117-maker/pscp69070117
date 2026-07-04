@@ -14,42 +14,29 @@
 
 หมายเลข/ชื่อโจทย์ OJ:
 
-```text
+```2996
 
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
-```text
+```542928
 
 ```
 
 สถานะ OJ:
 
-```text
+```Pass
 Pass / Not Pass / Not Submit
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
-```text
+```0-15 minutes
 
 ```
 
-เลือกหนึ่งข้อ:
 
-```text
-0-15 minutes
-15-30 minutes
-30-60 minutes
-1-3 hours
-3-6 hours
-6-24 hours
-1-3 days
-4-7 days
-1-4 weeks
-More than 4 weeks
-```
 
 วิธีนับเวลา:
 
@@ -72,7 +59,8 @@ More than 4 weeks
 
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
-```text
+```txt ตัวแรก เป็นinputที่เป็นstring เพราะเป็นการรับข้อความ แล้วตรวจสอบว่า มีความยาว ๕       อักขระหรือไม่  ในบรรทัดที่สี่ และในบรรทัดที่ห้า เปลี่ยนตัวแปรtxtให้เป็นตัวพิมพ์เล็กทั้งหมด บรรทัดที่เจ็ดแสดงผล txt แบบ ย้อนกลับ 
+
 
 ```
 
@@ -93,32 +81,20 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1: ลองคิดว่าโจทย์นี้ใช้คำสั่งอะไร ในการทำให้ข้อความรีเวิส
+Step 2: นึกไม่ออก ถามเพื่อน เพื่อนนึกไม่ออกเลยถามเอไอแบบถูกวิธี
+Step 3: เอไอให้แนวทางคำตอบ คือใส่ [::-1]
+Step 4: แก้ไขโค้ดจนสำเณร็จ และ ลองเทสเคส ในโจท และเทสเคสที่คิดเอง
 ```
 
 ---
 
 ## 4. วิธีสุดท้ายที่ใช้จริง
 
-อธิบายสั้น ๆ ว่า algorithm หรือวิธีสุดท้ายที่ใช้จริงใน code ที่ส่งคืออะไร
 
-หัวข้อนี้ต่างจาก Section 3:
+``` รับอินพุตเป็นสตรง และ ทำให้ข้อความนั้นเป็นตัวเล็กทุกตัว หลังจากนั้น ในการแสดงผลใช้คำสั่ง[::-1] ร่วมด้วยเพื่อเป็นการ รีเวิสคำตามที่โจทย์ต้องการ
 
-- Section 3 คือแผนแรกก่อนใช้ AI ก่อนรับความช่วยเหลือจากคน หรือก่อนเขียน code สุดท้าย
-- Section 4 คือวิธีสุดท้ายที่ใช้ใน solution จริง
-- ถ้าวิธีสุดท้ายเหมือนกับแผนแรก ให้เขียนว่าเหมือนกัน และอธิบายสั้น ๆ ว่าทำไม
 
-ห้ามคัดลอกคำอธิบายจาก AI
-
-ห้ามคัดลอกคำอธิบายจากคนอื่น
-
-```text
-
-```
-
----
 
 ## 5. การทดสอบของฉัน
 
@@ -130,67 +106,67 @@ Step 3:
 
 ถ้า input หรือ output มีหลายบรรทัด ให้เขียนไว้ใน text blocks
 
-### Test Case 1
+### Test Case 1 
 
 ทำไมเลือก case นี้:
 
-```text
+```เป็นชื่อเล่น
 
 ```
 
 Input:
 
-```text
+```Futur
 
 ```
 
 Expected output:
 
-```text
+```rutuf
 
 ```
 
 Actual output:
 
-```text
+```rutuf
 
 ```
 
 Result:
 
-```text
+```Pass
 Pass / Not Pass
 ```
 
 ### Test Case 2
 
-ทำไมเลือก case นี้:
+ทำไมเลือก case นี้:ABCDE
 
-```text
+```เป็นตัวพิมพ์ใหญ่ทั้งหมด
 
 ```
 
 Input:
 
-```text
+```ABCDE
 
 ```
 
 Expected output:
 
-```text
+```edcba
 
 ```
 
 Actual output:
 
-```text
+```edcba
 
 ```
 
 Result:
 
-```text
+```Pass
 Pass / Not Pass
 ```
 
@@ -198,31 +174,31 @@ Pass / Not Pass
 
 ทำไมเลือก case นี้:
 
-```text
+```ตัวเล็กใหญ่สลับกัน
 
 ```
 
 Input:
 
-```text
+```HhEeE
 
 ```
 
 Expected output:
 
-```text
+```eeehh
 
 ```
 
 Actual output:
 
-```text
+```eeehh
 
 ```
 
 Result:
 
-```text
+```Pass
 Pass / Not Pass
 ```
 
@@ -232,7 +208,7 @@ Pass / Not Pass
 
 ใช้ AI กับโจทย์นี้หรือไม่
 
-```text
+```Yes
 Yes / No
 ```
 
@@ -250,7 +226,7 @@ ai_reflection.md
 
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
-```text
+```Yes
 Yes / No
 ```
 
@@ -275,25 +251,25 @@ Yes / No
 
 ใครช่วยคุณ
 
-```text
+```เพื่อน คู่แพร์
 
 ```
 
 เขาช่วยอะไร
 
-```text
+```เพื่อนเป็นเนเกวิเต้อ ช่วยกันหาคำสั่งว่าคำสั่งไหนที่จะทำให้เอ้าพุต รีเวิส
 
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
-```text
+```รับอินพุตเป็นสตริง และ เปลี่ยนข้อความนั้นเป็นตัวเล็กทั้งหมด
 
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
 
-```text
+```No
 No
 ```
 
@@ -305,10 +281,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. |Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. |Yes |
