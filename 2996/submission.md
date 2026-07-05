@@ -166,14 +166,14 @@ ABCDE
 Expected output:
 
 ```text
-ABCDE
+edcba
 
 ```
 
 Actual output:
 
 ```text
-ABCDE
+edcba
 
 ```
 
